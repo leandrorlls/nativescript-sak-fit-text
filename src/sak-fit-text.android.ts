@@ -13,6 +13,7 @@ export class SakFitText extends Common {
         textField.setMinHeight(this._minHeight);
         textField.setMaxHeight(this._maxHeight);
         textField.setTextSize(200);
+        textField.setTextAlignment(android.widget.TextView.TEXT_ALIGNMENT_CENTER);
         me.grantland.widget.AutofitHelper.create(textField);
 
         return textField;
